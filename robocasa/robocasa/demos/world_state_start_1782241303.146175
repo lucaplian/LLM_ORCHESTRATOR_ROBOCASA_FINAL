@@ -1,0 +1,20 @@
+is_egg2_boiled: False
+is_egg1_boiled: False
+is_robot_grip_occupied: True
+is_cabinet_left_opened: True
+is_cabinet_right_opened: True
+is_cabinet_left_closed: False
+is_cabinet_right_closed: False
+is_water_in_pot: True
+is_fridge_opened: False
+is_fridge_closed: True
+is_sink_opened: False
+is_sink_positioned: False
+is_water_boiled: True
+is_pot_occupied_egg1: True
+is_pot_occupied_egg2: False
+stove.is_active: [<Env_Stove.FRONT_LEFT: 'stovetop_right_group_1_knob_front_left_joint'>]
+stove.is_occupied: [<Env_Stove.FRONT_LEFT: 'stovetop_right_group_1_knob_front_left_joint'>]
+egg1_location: Env_Locations.POT
+egg2_location: Env_Locations.ROBOT_HAND
+pot_location: Env_Locations.STOVE
